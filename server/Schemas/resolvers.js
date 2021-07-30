@@ -30,7 +30,7 @@ const resolvers = {
         },
         saveBook: async (parent, {bookData}, context) => {
             if(context.user){
-                const updateUser = await User.findByIdAndUpdate({_id: context.user_id}, {$push: { savedBooks: book._id} }, {new: true});
+                const updateUser = await User.findByIdAndUpdate({_id: context.user_id}, {$push: { savedBooks: bookData} }, {new: true});
                 return updateUser;
             }
             throw new AuthenticationError('You are not logged in...');
