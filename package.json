@@ -1,0 +1,25 @@
+{
+  "name": "book-finder3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzonsn/book-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzonsn/book-finder/issues"
+  },
+  "homepage": "https://github.com/enzonsn/book-finder#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  },
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
